@@ -1,0 +1,41 @@
+
+.nav a {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+header{
+    background-image:url(image/k5.jpeg);
+    height: 100vh;
+    background-position: right;
+    background-size:500px ;
+}
+.nav{
+    text-align: center;
+    font-size: 20px;
+}
+
+a{
+    margin: 10px;
+}
+
+.btn{
+    float: right;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: rgb(238, 114, 69);
+    margin-right: 80px;
+    padding: 4px;
+    font-size: 15px;
+    color: rgb(236, 213, 213);
+}
+h1,h2,h3 {
+    text-align: left;
+    color: azure;
+    margin-left: 75px;
+}
+h3 {
+    margin-top: 125px;
+    font-size: 20px;
+}
