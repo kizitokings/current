@@ -1,4 +1,6 @@
 
+
+
 .nav a {
     text-align: center;
     text-decoration: none;
@@ -22,7 +24,7 @@ header{
 }
 .nav2{
     padding-left: 180px;
-    margin-top: -65px;
+    margin-top: -60px;
 }
 
 a{
@@ -51,16 +53,19 @@ span {
     background-color: aqua;
 
 }
-form label{
-    padding-left: -20px;
-}
 
 .btn2{
     float: left;
     margin-left: 75px;
     border-radius: 14px;
     color: rgb(249, 56, 56);
+    width: 200px;
 }
+input{
+    width: 75px;
+    margin: 2px;
+}
+
 .btn3 {
     float: left;
     background-color: rgb(244, 57, 57);
@@ -243,4 +248,9 @@ i {
     margin: 4px;
     background-color: rgb(244, 57, 57);
     cursor: pointer;
+}
+@media only screen and (max-width:480px){
+    .flex { padding: 25px 0; }
+    header { padding: 25px 0; }
+    .body { width: 100%; }
 }
